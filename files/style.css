@@ -1,0 +1,209 @@
+#top , #topright{
+	float: left;
+}
+
+#button{
+	width: 350px;
+	height: 35px;
+	margin: 0px;
+}
+
+.righttable{
+	display: inline;
+	float: left;
+	width: 300px;
+	height: 200px;
+	border: 1px solid #cccccc;
+	margin: 0px 7px 3px 5px;
+	padding: 5px 5px 2px 5px;
+}
+.beforeclick{
+	margin: auto auto auto auto;
+}
+#pointdata{
+	float: left;
+	width: 300px;
+	height: 200px;
+	border: 1px solid #cccccc;
+	margin: 0px 7px 3px 5px;
+	padding: 5px 5px 2px 5px;
+}
+.row{
+	width: 650px;
+	height: 220px;
+}
+h2{
+	margin: 5px 10px 5px 8px;
+	padding: 0px;
+}
+p{
+	margin: 0px;
+}
+h4{
+	margin: 6px 0px 3px 5px;
+	padding: 0px;
+}
+#all{
+	margin: auto;
+}
+.info{
+	display: inline;
+}
+.info1{
+	margin: 5px 0px 1px 8px;
+}
+.info2{
+	color: #ffffff;
+	margin: 1px;
+	padding: 1px 2px 1px 2px;
+}
+#update{
+	float: left;
+	margin: 0px 1px 1px 1px;
+	padding: 10px 2px 1px 8px;
+}
+#maker{
+	margin: 23px 5px 1px 1px;
+	padding: 1px 2px 1px 8px;
+	size: 22px;
+}
+.inline{
+	display: inline;
+}
+.infopic{
+	margin: 0px 0px 0px 8px;
+	width: 12px;
+	height: 12px;
+}
+#bot{
+	margin: 18px 0px 0px 0px;
+}
+.button{
+	display: inline;
+	margin: 10px 2px 10px 2px;
+	margin-top: 4px;
+}
+#button{
+	float: left;
+	display: inline;
+}
+#picbar{
+	float: left;
+	display: inline;
+}
+.bar{
+	display: inline;
+	width: 570px;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+#livetitle{
+	width: 950px;
+	height:33px;
+	padding: 1px 3px 3px 1px;
+	margin: 0px 0px -2px 0px;
+}
+#acheive{
+	width: 635px;
+	height: 138px;
+	border: 1px solid #cccccc;
+	margin: 5px;
+}
+#live{
+	width: 65px;
+	height: 21px;
+}
+#livediv{
+	width: 952px;
+	height: 247px;
+	border: 1px solid #cccccc;
+	margin: 5px 4px 0px 0px;
+	padding: 5px 0px 5px 6px;
+}
+.updateinfo{
+	padding: 0px 0px 0px 10px;
+}
+#butontitle{
+	float: left;
+	padding: 6px 8px 0px 0px;
+}
+#layer{
+	margin: 0px;
+}
+.colorblock{
+	padding: 0px 2px 0px 2px;
+}
+#h2title{
+	margin-right: 10px;
+}
+#achpic{
+	margin-left: 15px;
+}
+#livebutton{
+	display: inline;
+	float: right;
+	margin-right: 5px;
+}
+.button, #lbutton{
+	height: 24px; 
+	line-height: 24px; 
+	display: inline-block;
+	font-size: 80%; 
+	font-weight: normal; 
+	border: 1px solid #18ab29;
+	text-decoration: none; 
+	padding: 0 5px 5px 5px; 
+	margin: 2px;
+	background-color: #d9f9eb;
+	border-radius: 5px;
+	font-family: 'Microsoft JhengHei';
+}
+
+.submittitle{
+	display: inline;
+}
+.submitlist{
+	padding: 2px 4px 2px 4px;
+	margin: 1px 6px 1px 10px;
+}
+#submitbuton{
+	margin: 2px 6px 4px 10px;
+}
+#subinfo{
+	display: inline;
+	float: left;
+	width: 300px;
+	height: 138px;
+	border: 1px solid #cccccc;
+	margin: 0;
+}
+#subform{
+	display: inline;
+	float: left;
+	width: 300px;
+	height: 138px;
+	padding: 3px 0px 5px 8px;
+}
+#result{
+	text-align:center;
+	margin: 50px auto;
+}
+#gresult, #bresult{
+	font-size: 20px;
+	font-family: 'Microsoft JhengHei';
+}
+#gresult{
+	color: #18ab29;
+}
+#bresult{
+	color: #E63F00;
+}
+#resbut{
+	margin-top: -20px;
+	margin-right: 5px;
+	float: right;
+}
+#selfbut{
+	margin-top: 24px;
+}

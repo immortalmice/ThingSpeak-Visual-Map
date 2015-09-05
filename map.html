@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Map</title>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="JavaScript/jquery.js"></script>
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBs9C2vEzW4DVOFNwtSwjD_3jOmLjc6UYY&sensor=true"></script>
+		<script type="text/javascript" src = 'JavaScript/channeldata.js'></script>
+		<link rel='stylesheet' type='text/css' href='files/style.css'/>
+	</head>
+	<body onload="initialize()">
+		<div id="all">
+			<div id="top">
+				<div id="righttop">
+					<div id="butontitle" class="inline"><h4 id="layer" class="inline">圖層</h4></div>
+					<div id="button">
+						<input type="button" class="button" value="全部" onclick = "buttonclick(0);">
+						<input type="button" class="button" value="氣溫" onclick = "buttonclick(1);">
+						<input type="button" class="button" value="濕度" onclick = "buttonclick(2);">
+						<input type="button" class="button" value="空氣汙染" onclick = "buttonclick(3);">
+						<input type="button" class="button" value="懸浮微粒" onclick = "buttonclick(4);">
+					</div>
+					<div id="picbar"></div>
+				</div>
+				<div id="map" style="width: 960px;height: 500px;float: top"></div>
+				<div id="livediv">
+					<div id="livetitle">
+						<h2 id="h2title" class="inline"><font face="Microsoft JhengHei">即時更新資訊廣播</font></h2>
+						<img id="live" class="inline" src="Pic/icons/LIVEcs.png">
+						<div id="livebutton"><input type="button" id="lbutton" value="關閉即時更新" onclick = "shutlive();"></div>
+					</div>
+					<div id="liveupdate"></div>	 
+				</div>				
+			</div>
+			<div id="topright">
+				<div id="acheive"></div>
+				<div class="row">
+					<div id="pointdata"><font face="Microsoft JhengHei"><h3 class='beforeclick'>選取地圖上的點查看資料</h3></font></div>
+					<div class="righttable" id="field1" align="right"><img class='beforeclick' src='Pic/icons/water.png'></div>
+				</div>
+				<div class="row">
+					<div class="righttable" id="field2" align="right"><img class='beforeclick' src='Pic/icons/temp.png'></div>
+					<div class="righttable" id="field3" align="right"><img class='beforeclick' src='Pic/icons/humi.png'></div>
+				</div>
+				<div class="row">
+					<div class="righttable" id="field4" align="right"><img class='beforeclick' src='Pic/icons/ppm.png'></div>
+					<div class="righttable" id="field5" align="right"><img class='beforeclick' src='Pic/icons/dust.png'></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
