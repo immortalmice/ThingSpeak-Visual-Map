@@ -12,4 +12,4 @@
 - [jQuery](https://jquery.com/)
 - [ThingSpeak APIs](https://thingspeak.com/)
 - [node.js](https://nodejs.org/en/)
-- I'll use [Bootstrap](http://getbootstrap.com/) in future version
+- [Bootstrap](http://getbootstrap.com/) will be used in the new version of the project
