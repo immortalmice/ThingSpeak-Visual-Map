@@ -7,7 +7,7 @@
 - First you need to use [node.js](https://nodejs.org/en/) to run [startserver.js](https://github.com/immortalmice/Air/blob/master/startserver.js) file on your server.
 - Be careful about your path and root of website.
 
-# What I use in this project?
+# What is used in this project?
 - [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/)
 - [jQuery](https://jquery.com/)
 - [ThingSpeak APIs](https://thingspeak.com/)
